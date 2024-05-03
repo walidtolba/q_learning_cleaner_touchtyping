@@ -51,7 +51,6 @@ class SimulationEnv():
         self.color_index = 0 ####
         self.reset()
         self.reset_text()
-        self.game_end == False
 
     def step(self, action):
         """ Take an action as an input, return the resulting game state, reward receivedand whether the game is over """
