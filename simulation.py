@@ -37,7 +37,7 @@ class SimulationEnv():
 ]
 
     def __init__(self):
-        pygame.display.set_caption("NiggaHigga")
+        pygame.display.set_caption("Touch-Typing")
         self.window_width = 440
         self.window_height = 440
         self.screen = None
